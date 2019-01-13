@@ -1,5 +1,6 @@
 def reformat_languages(languages)
-  hash = {}
+  new_hash = {}
+  languages.each do |style, languages|
     hash[:my_key] = {second_level_key: "second level value"}
-  puts hash
+  puts new_hash
 end
